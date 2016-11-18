@@ -32,9 +32,11 @@
             for the fragment
     -->
     <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textViewDescription"
+        android:layout_marginTop="15dp"
         android:id="@+id/textviewDate" />
 
     <fragment
@@ -44,5 +46,5 @@
         class="com.google.android.gms.maps.SupportMapFragment"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="105dp"/>
+        android:layout_marginBottom="104dp"/>
 </RelativeLayout>
