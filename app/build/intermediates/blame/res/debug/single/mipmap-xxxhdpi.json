@@ -4,7 +4,15 @@
         "source": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/doorsopen.png",
+        "source": "/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/src/main/res/mipmap-xxxhdpi/doorsopen.png"
+    },
+    {
         "merged": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/doorsopen.png",
         "source": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/src/main/res/mipmap-xxxhdpi/doorsopen.png"
+    },
+    {
+        "merged": "/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]
