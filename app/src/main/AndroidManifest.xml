@@ -20,7 +20,7 @@
         </activity>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDfvAiRZepaWKjoQbctqgyOJh73A4oXdow"/>
+            android:value="AIzaSyDfvAiRZepaWKjoQbctqgyOJh73A4oXdow" />
         <activity android:name=".DetailActivity">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.INTERNET" />

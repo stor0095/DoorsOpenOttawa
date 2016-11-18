@@ -31,15 +31,13 @@ import java.util.List;
  *
  * @author Shannon Wilson(Wils0751)
  */
-public class MainActivity extends ListActivity implements AdapterView.OnItemClickListener {
+public class MainActivity extends ListActivity /*implements AdapterView.OnItemClickListener*/ {
 
     // URL to my RESTful API Service hosted on my Bluemix account.
     public static final String IMAGES_BASE_URL = "https://doors-open-ottawa-hurdleg.mybluemix.net/";
     public static final String REST_URI = "https://doors-open-ottawa-hurdleg.mybluemix.net/buildings";
 
     private AboutDialogFragment mAboutDialog;
-
-
 
 
     private ProgressBar pb;
@@ -56,14 +54,29 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
         pb.setVisibility(View.INVISIBLE);
 
         tasks = new ArrayList<>();
-        getListView().setChoiceMode( ListView.CHOICE_MODE_SINGLE );
-        getListView().setOnItemClickListener( this );
+        getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+        getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Building theSelectedBuilding = buildingList.get(position);
+//               Toast.makeText(this, theSelectedBuilding.getName(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("Name", theSelectedBuilding.getName());
+                intent.putExtra("Description", theSelectedBuilding.getDescription());
+                intent.putExtra("Address", theSelectedBuilding.getAddress());
+                intent.putExtra("Date", theSelectedBuilding.getDate());
+
+                startActivity(intent);
+            }
+
+
+        });
         if (isOnline()) {
             requestData(REST_URI);
         } else {
             Toast.makeText(this, "Network isn't available", Toast.LENGTH_LONG).show();
         }
-
 
 
     }
@@ -79,15 +92,13 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
+        if (item.getItemId() == R.id.action_about) {
+            DialogFragment newFragment = new AboutDialogFragment();
+            newFragment.show(getFragmentManager(), "About Dialog");
+            return true;
+        }
 
-
-           if(item.getItemId()== R.id.action_about) {
-               DialogFragment newFragment = new AboutDialogFragment();
-               newFragment.show( getFragmentManager(), "About Dialog" );
-                return true;
-            }
-
-            return false;
+        return false;
 
     }
 
@@ -97,7 +108,7 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
     }
 
     protected void updateDisplay() {
-        //Use PlanetAdapter to display data
+        //Use BuildingAdapter to display data
 
         BuildingAdapter adapter = new BuildingAdapter(this, R.layout.item_building, buildingList);
         setListAdapter(adapter);
@@ -112,22 +123,7 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
             return false;
         }
     }
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Building theSelectedBuilding = buildingList.get( position );
-//        Toast.makeText(this, theSelectedBuilding.getName(), Toast.LENGTH_SHORT).show();
-          Intent intent = new Intent( getApplicationContext(), DetailActivity.class );
-          intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
-          intent.putExtra("Name", theSelectedBuilding.getName());
-          intent.putExtra("Description", theSelectedBuilding.getDescription());
-          intent.putExtra("Address", theSelectedBuilding.getAddress());
 
-//          intent.putExtra("Date", theSelectedBuilding.getOpenHours());
-//
-          startActivity( intent );
-
-
-    }
 
     private class MyTask extends AsyncTask<String, String, List<Building>> {
 

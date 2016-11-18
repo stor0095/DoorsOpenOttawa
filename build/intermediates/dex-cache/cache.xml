@@ -3,93 +3,93 @@
 
     <item
         is-multidex="true"
-        jar="/Users/geemakunstorey/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_67430d4a506e116708b88b4c4b7dbc35a12831bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_cac06479db467a710d7ff6078600891e791c5bc4/classes.dex" />
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_1b14f01724bbd265e719a9ab4d289ca83f7b338d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0262b89c682f81c7237d8516724b72abd80556a6">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_88fc878b50ed54157d61ae80b41f3d69777f49f4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="db1c5c7683fe9d7d43cc77844b2532e2afa372a6">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bcfeeff9078b5aba484fe4c1ff15c8193353916c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_ac6e1b0373a945ef81a9ca76f5d1aa7e73020888/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_64ba06c58a522e2d297bafbff48ff49fcdfdcae7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_7bfa4f3ea84cf5d9374e65abe360b78ba3446ec7/classes.dex" />
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_426a7b6f7a532e8c60557d7851767d96369fbcd3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aabc7131de0e7e19bdb0f52db77fb514e26f97f5">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bef00cb80083c705dbc204257181f2469006d55d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-6.5.87_8e5a96ab25909c6faf4d209f5dfc77b6398b6969/classes.dex" />
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-6.5.87_bf0f73bc1ab2cba26aada7880a206c309b2940b7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-6.5.87_2cbbb62a3db547d4422adcb5d9f87c1f2d673e26/classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_c2a51ac56658965a27fc0e1a8c08fd015cb62430/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_25cb13a241aee78904e9720e51dbe091e9328d92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_2cef87ac63e253899b3746e63ed6863259b5013d/classes.dex" />
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_51eb243ed693eb349a06ca9f380ad352ae6d26e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-6.5.87_9ff58843c9b187f3ca97c1597cd9304e4bc448a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ShannonWilson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_9085be978c51fb6fe078ee16a14f322c18ab5e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dfaad9233864982f0619f02e770e68e4dfc80085">
+        <dex dex="/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_08108ce5dc0e812ca3239bb32741af63bd4aa7c8/classes.dex" />
     </item>
 
 </items>

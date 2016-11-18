@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.location.Address;
 import android.os.AsyncTask;
 import android.text.style.BulletSpan;
 import android.util.Log;
@@ -34,7 +35,7 @@ import java.util.List;
 public class BuildingAdapter extends ArrayAdapter<Building> {
     private Context context;
     private List<Building> buildingList;
-    private JSONArray calendar;
+    private String Address;
 
 
     private LruCache<Integer, Bitmap> imageCache;
@@ -52,7 +53,7 @@ public class BuildingAdapter extends ArrayAdapter<Building> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        String dateBuilding = " ";
+
         LayoutInflater inflater =
                 (LayoutInflater) context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.item_building, parent, false);
@@ -60,20 +61,11 @@ public class BuildingAdapter extends ArrayAdapter<Building> {
         //Display planet name in the TextView widget
         Building building = buildingList.get(position);
         TextView tv = (TextView) view.findViewById(R.id.textView);
+        TextView tv1 = (TextView) view.findViewById(R.id.textView2);
 
-
-//
-//        calendar = (building.getDate());
-//        try {
-//            for (int j = 0; j < calendar.length(); j++) {
-//                dateBuilding += calendar.getJSONObject(j).getString("date") + "\n";
-//            }
-//
-//        } catch (JSONException e) {
-//
-//        }
 
         tv.setText(building.getName());
+        tv1.setText(building.getAddress());
 
         Bitmap bitmap = imageCache.get(building.getBuildingId());
 

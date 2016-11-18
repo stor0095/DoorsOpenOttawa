@@ -30,6 +30,7 @@ public class DetailActivity extends FragmentActivity implements OnMapReadyCallba
     private String newStringBuildingAddress;
     private GoogleMap mMap;
     private Geocoder mGeocoder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,23 +41,23 @@ public class DetailActivity extends FragmentActivity implements OnMapReadyCallba
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         // Instantiate geocode
-        mGeocoder = new Geocoder( this );
+        mGeocoder = new Geocoder(this);
 
         buildingName = (TextView) findViewById(R.id.textViewName);
-        buildingDescription =(TextView) findViewById(R.id.textViewDescription);
+        buildingDescription = (TextView) findViewById(R.id.textViewDescription);
         buildingHours = (TextView) findViewById(R.id.textviewDate);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String buildingNameFromMainActivity = bundle.getString("Name");
             String buildingDescriptionFromMainActivity = bundle.getString("Description");
-//            String buildingDateFromMainActivity= bundle.getString();
+            String buildingDateFromMainActivity = bundle.getString("Date");
 
             newStringBuildingAddress = bundle.getString("Address");
 
             buildingName.setText(buildingNameFromMainActivity);
             buildingDescription.setText(buildingDescriptionFromMainActivity);
-           // buildingAddress.setText(buildingAddressFromMainActivity);
+            buildingHours.setText(buildingDateFromMainActivity);
 
         }
 
@@ -78,15 +79,18 @@ public class DetailActivity extends FragmentActivity implements OnMapReadyCallba
         // Pin location
         pin(newStringBuildingAddress);
     }
-    /** Locate and pin locationName to the map. */
-    private void pin( String locationName ) {
+
+    /**
+     * Locate and pin locationName to the map.
+     */
+    private void pin(String locationName) {
         try {
             Address address = mGeocoder.getFromLocationName(locationName, 1).get(0);
-            LatLng ll = new LatLng( address.getLatitude(), address.getLongitude() );
+            LatLng ll = new LatLng(address.getLatitude(), address.getLongitude());
             // Set zoom level
             float zoomLevel = (float) 16.0; //This goes up to 21
-            mMap.addMarker( new MarkerOptions().position(ll).title(locationName) );
-            mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(ll, zoomLevel) );
+            mMap.addMarker(new MarkerOptions().position(ll).title(locationName));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ll, zoomLevel));
             Toast.makeText(this, "Pinned: " + locationName, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Toast.makeText(this, "Not found: " + locationName, Toast.LENGTH_SHORT).show();

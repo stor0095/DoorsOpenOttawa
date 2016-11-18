@@ -36,16 +36,15 @@ public class BuildingJSONParser {
                 building.setAddress(obj.getString("address"));
                 building.setImage(obj.getString("image"));
                 building.setDescription(obj.getString("description"));
-                JSONArray open_hours = (obj.getJSONArray("open_hours"));
-                List<String> list = new ArrayList<>();
+                building.setOpenHours(obj.getJSONArray("open_hours"));
+//                JSONArray open_hours = (obj.getJSONArray("open_hours"));
+//                for(int j=0; j<open_hours.length(); j++){
+//                   building.addDate(open_hours.getJSONObject(j).getString("date"));
+//                }
 
-                for(int j=0; j<open_hours.length(); j++){
-                    list.add(open_hours.getJSONObject(j).getString("date"));
-                }
-
-                building.addDate(list);
-
-
+//                for (int j=0; j<building.getOpenHours().length(); j++){
+//                    building.getOpenHours().getJSONObject(j).getString("date");
+//                }
 
 
                 buildingList.add(building);

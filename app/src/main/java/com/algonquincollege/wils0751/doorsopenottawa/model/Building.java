@@ -3,6 +3,7 @@ package com.algonquincollege.wils0751.doorsopenottawa.model;
 import android.graphics.Bitmap;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 
 import java.util.List;
 
@@ -16,9 +17,11 @@ public class Building {
     private String name;
     private String address;
     private String image;
-    private List<String> openHours;
+    private JSONArray openHours = new JSONArray();
+    private String date = "";
     private Bitmap bitmap;
     private String description;
+
     public Integer getBuildingId() {
         return buildingId;
     }
@@ -54,14 +57,26 @@ public class Building {
         this.image = image;
     }
 
-
-
-    public List<String> getOpenHours() {
-     return openHours;
+    public JSONArray getOpenHours() {
+        return openHours;
     }
-    public void addDate(List<String> openHours){
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setOpenHours(JSONArray openHours) {
         this.openHours = openHours;
+        date = " ";
+        for (int i = 0; i < openHours.length(); i++) {
+            try {
+                date += openHours.getJSONObject(i).getString("date") + "\n";
+            } catch (JSONException e) {
+
+            }
+        }
     }
+
     public Bitmap getBitmap() {
         return bitmap;
     }
@@ -70,8 +85,12 @@ public class Building {
         this.bitmap = bitmap;
     }
 
-    public String getDescription() {return description;}
+    public String getDescription() {
+        return description;
+    }
 
-    public void setDescription(String description) {this.description = description;}
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
 

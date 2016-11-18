@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Applications/MAMP/htdocs/DoorsOpenOttawa/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-mdpi/doorsopen.png",
+        "source": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/src/main/res/mipmap-mdpi/doorsopen.png"
     },
     {
-        "merged": "/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-mdpi/doorsopen.png",
-        "source": "/Applications/MAMP/htdocs/DoorsOpenOttawa/app/src/main/res/mipmap-mdpi/doorsopen.png"
+        "merged": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/ShannonWilson/Desktop/DoorsOpenOttawa/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]
