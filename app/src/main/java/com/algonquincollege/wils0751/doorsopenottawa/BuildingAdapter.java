@@ -4,9 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.location.Address;
 import android.os.AsyncTask;
-import android.text.style.BulletSpan;
 import android.util.Log;
 import android.util.LruCache;
 import android.view.LayoutInflater;
@@ -17,10 +15,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.algonquincollege.wils0751.doorsopenottawa.model.Building;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -60,8 +54,8 @@ public class BuildingAdapter extends ArrayAdapter<Building> {
 
         //Display planet name in the TextView widget
         Building building = buildingList.get(position);
-        TextView tv = (TextView) view.findViewById(R.id.textView);
-        TextView tv1 = (TextView) view.findViewById(R.id.textView2);
+        TextView tv = (TextView) view.findViewById(R.id.buildingCellDescription);
+        TextView tv1 = (TextView) view.findViewById(R.id.addressCell);
 
 
         tv.setText(building.getName());

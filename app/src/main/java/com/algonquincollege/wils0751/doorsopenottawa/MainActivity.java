@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * Main activity class handles all the stuff displaying on the screen
  *
- * @author Shannon Wilson(Wils0751)
+ * @author Geemakun Storey (Stor0095), Shannon Wilson(Wils0751)
  */
 public class MainActivity extends ListActivity /*implements AdapterView.OnItemClickListener*/ {
 

@@ -91,7 +91,7 @@ public class DetailActivity extends FragmentActivity implements OnMapReadyCallba
             float zoomLevel = (float) 16.0; //This goes up to 21
             mMap.addMarker(new MarkerOptions().position(ll).title(locationName));
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ll, zoomLevel));
-            Toast.makeText(this, "Pinned: " + locationName, Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(this, "Pinned: " + locationName, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Toast.makeText(this, "Not found: " + locationName, Toast.LENGTH_SHORT).show();
         }

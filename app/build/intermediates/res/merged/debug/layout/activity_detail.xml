@@ -16,9 +16,9 @@
         android:layout_height="60dp"
         android:id="@+id/textViewName"
         android:layout_alignParentStart="true"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/background_dark" />
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="normal|bold"/>
 
     <!--- TODO: ADD JSON CALANDER HOURS HERE IN A NEW TEXTVIEW IF POSSIBLE
             To keep it cleaner, take into account the layout_marginBottom=105
@@ -30,26 +30,28 @@
         android:layout_width="match_parent"
         android:layout_height="180dp"
         class="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="17.5dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Date"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/textviewDate"
-        android:layout_above="@+id/map"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="16dp"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="320dp"
         android:id="@+id/textViewDescription"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_below="@+id/textViewName"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textviewDate" />
+
+    <TextView
+        android:text="Date"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/textviewDate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
 </RelativeLayout>

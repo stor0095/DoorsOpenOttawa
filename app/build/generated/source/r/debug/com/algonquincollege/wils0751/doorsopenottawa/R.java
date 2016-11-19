@@ -1837,11 +1837,13 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0d0029;
         public static final int activity_detail=0x7f0d0055;
         public static final int activity_main=0x7f0d005a;
+        public static final int addressCell=0x7f0d005e;
         public static final int adjust_height=0x7f0d001c;
         public static final int adjust_width=0x7f0d001d;
         public static final int alertTitle=0x7f0d0035;
         public static final int always=0x7f0d0021;
         public static final int beginning=0x7f0d0019;
+        public static final int buildingCellDescription=0x7f0d005d;
         public static final int buttonPanel=0x7f0d0030;
         public static final int cancel_action=0x7f0d0060;
         public static final int checkbox=0x7f0d003e;
@@ -1914,11 +1916,9 @@ containing a value of this type.
         public static final int text=0x7f0d0069;
         public static final int text2=0x7f0d0067;
         public static final int textSpacerNoButtons=0x7f0d0039;
-        public static final int textView=0x7f0d005d;
-        public static final int textView2=0x7f0d005e;
-        public static final int textViewDescription=0x7f0d0059;
+        public static final int textViewDescription=0x7f0d0058;
         public static final int textViewName=0x7f0d0056;
-        public static final int textviewDate=0x7f0d0058;
+        public static final int textviewDate=0x7f0d0059;
         public static final int time=0x7f0d0065;
         public static final int title=0x7f0d002f;
         public static final int title_template=0x7f0d0034;

@@ -531,11 +531,13 @@ int id action_mode_close_button 0x7f0d0028
 int id activity_chooser_view_content 0x7f0d0029
 int id activity_detail 0x7f0d0055
 int id activity_main 0x7f0d005a
+int id addressCell 0x7f0d005e
 int id adjust_height 0x7f0d001c
 int id adjust_width 0x7f0d001d
 int id alertTitle 0x7f0d0035
 int id always 0x7f0d0021
 int id beginning 0x7f0d0019
+int id buildingCellDescription 0x7f0d005d
 int id buttonPanel 0x7f0d0030
 int id cancel_action 0x7f0d0060
 int id checkbox 0x7f0d003e
@@ -608,11 +610,9 @@ int id terrain 0x7f0d0020
 int id text 0x7f0d0069
 int id text2 0x7f0d0067
 int id textSpacerNoButtons 0x7f0d0039
-int id textView 0x7f0d005d
-int id textView2 0x7f0d005e
-int id textViewDescription 0x7f0d0059
+int id textViewDescription 0x7f0d0058
 int id textViewName 0x7f0d0056
-int id textviewDate 0x7f0d0058
+int id textviewDate 0x7f0d0059
 int id time 0x7f0d0065
 int id title 0x7f0d002f
 int id title_template 0x7f0d0034
