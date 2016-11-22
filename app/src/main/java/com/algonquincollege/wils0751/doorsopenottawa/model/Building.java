@@ -58,9 +58,6 @@ public class Building {
         this.image = image;
     }
 
-    public JSONArray getOpenHours() {
-        return openHours;
-    }
 
     public String getDate() {
         return date;
@@ -68,13 +65,7 @@ public class Building {
 
     public void setOpenHours(JSONArray openHours) {
         this.openHours = openHours;
-        for (int i = 0; i < openHours.length(); i++) {
-            try {
-                date += openHours.getJSONObject(i).getString("date") + "\n";
-            } catch (JSONException e) {
 
-            }
-        }
     }
 
     public Bitmap getBitmap() {
