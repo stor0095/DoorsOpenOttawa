@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Adapts the array from the getters
  *
- * @author ShannonWilson (Wils0751)
+ * @author ShannonWilson (Wils0751) Geemakun Storey (Stor0095)
  */
 
 public class BuildingAdapter extends ArrayAdapter<Building> {

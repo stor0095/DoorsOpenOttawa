@@ -5,33 +5,47 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="131008553924259"
-    token="-4609353630164384558"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="164441451604284"
+    token="-4831305550388473472"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="864" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="219" />
+        duration="0" />
     <task
         name="verifier"
-        duration="25" />
+        duration="0" />
 
     <artifact
-        location="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="131008553924259"
+        timestamp="161327529385319"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Applications/MAMP/htdocs/DoorsOpenOttawa/app/build/outputs/apk/app-debug.apk"
+            location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="164357797545172"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="164441451604284"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

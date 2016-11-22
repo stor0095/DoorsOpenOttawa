@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#565656">
 
 
     <ImageView
@@ -24,6 +25,7 @@
         android:layout_marginTop="20dp"
         android:layout_toRightOf="@+id/imageView1"
         android:text="@string/building_name_placeholder"
+        android:textColor="#ffffff"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -35,7 +37,7 @@
         android:layout_below="@id/buildingCellDescription"
         android:layout_toRightOf="@+id/imageView1"
         android:textSize="16sp"
-        android:textColor="@color/common_signin_btn_light_text_default"/>
+        android:textColor="#aec6cf"/>
 
 
 </RelativeLayout>

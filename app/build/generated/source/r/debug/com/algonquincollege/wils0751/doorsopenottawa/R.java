@@ -1872,7 +1872,7 @@ containing a value of this type.
         public static final int line3=0x7f0d0068;
         public static final int listMode=0x7f0d0009;
         public static final int list_item=0x7f0d002d;
-        public static final int map=0x7f0d0057;
+        public static final int map=0x7f0d0059;
         public static final int media_actions=0x7f0d0062;
         public static final int middle=0x7f0d001b;
         public static final int multiply=0x7f0d0014;
@@ -1916,9 +1916,9 @@ containing a value of this type.
         public static final int text=0x7f0d0069;
         public static final int text2=0x7f0d0067;
         public static final int textSpacerNoButtons=0x7f0d0039;
-        public static final int textViewDescription=0x7f0d0058;
+        public static final int textViewDescription=0x7f0d0057;
         public static final int textViewName=0x7f0d0056;
-        public static final int textviewDate=0x7f0d0059;
+        public static final int textviewDate=0x7f0d0058;
         public static final int time=0x7f0d0065;
         public static final int title=0x7f0d002f;
         public static final int title_template=0x7f0d0034;

@@ -21,6 +21,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import com.google.android.gms.maps.MapFragment;
+/**
+ * Detail activity class handles all the items displayed in the detail activity
+ *
+ * @author Geemakun Storey (Stor0095), Shannon Wilson(Wils0751)
+ */
 
 public class DetailActivity extends FragmentActivity implements OnMapReadyCallback {
 

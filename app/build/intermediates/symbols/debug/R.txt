@@ -566,7 +566,7 @@ int id line1 0x7f0d0064
 int id line3 0x7f0d0068
 int id listMode 0x7f0d0009
 int id list_item 0x7f0d002d
-int id map 0x7f0d0057
+int id map 0x7f0d0059
 int id media_actions 0x7f0d0062
 int id middle 0x7f0d001b
 int id multiply 0x7f0d0014
@@ -610,9 +610,9 @@ int id terrain 0x7f0d0020
 int id text 0x7f0d0069
 int id text2 0x7f0d0067
 int id textSpacerNoButtons 0x7f0d0039
-int id textViewDescription 0x7f0d0058
+int id textViewDescription 0x7f0d0057
 int id textViewName 0x7f0d0056
-int id textviewDate 0x7f0d0059
+int id textviewDate 0x7f0d0058
 int id time 0x7f0d0065
 int id title 0x7f0d002f
 int id title_template 0x7f0d0034

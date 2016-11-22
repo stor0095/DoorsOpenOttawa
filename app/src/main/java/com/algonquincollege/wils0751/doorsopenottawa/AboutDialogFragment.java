@@ -7,7 +7,9 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 
 /**
- * Created by ShannonWilson on 2016-10-11.
+ * Handles what is in the about Dialog
+ *
+ * @author Geemakun Storey (Stor0095), Shannon Wilson(Wils0751)
  */
 
 public class AboutDialogFragment extends DialogFragment {
