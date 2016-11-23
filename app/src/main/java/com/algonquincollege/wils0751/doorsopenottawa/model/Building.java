@@ -11,6 +11,7 @@ import java.util.List;
  * Model handles the getters and setters
  *
  * @author Shannon Wilson (Wils0751) Geemakun Storey (Stor0095)
+ *
  */
 public class Building {
     private Integer buildingId;
@@ -64,6 +65,14 @@ public class Building {
 
     public void setOpenHours(JSONArray openHours) {
         this.openHours = openHours;
+
+        for (int i = 0; i < openHours.length(); i++) {
+            try {
+                date += openHours.getJSONObject(i).getString("date") + "\n";
+            } catch (JSONException e) {
+
+            }
+        }
 
     }
 
