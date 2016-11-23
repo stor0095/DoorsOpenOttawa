@@ -11,7 +11,6 @@ import java.util.List;
  * Model handles the getters and setters
  *
  * @author Shannon Wilson (Wils0751) Geemakun Storey (Stor0095)
- *
  */
 public class Building {
     private Integer buildingId;
