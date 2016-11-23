@@ -18,7 +18,7 @@ public class Building {
     private String name;
     private String address;
     private String image;
-    private JSONArray openHours = new JSONArray();
+    private JSONArray openHours;
     private String date = "";
     private Bitmap bitmap;
     private String description;
