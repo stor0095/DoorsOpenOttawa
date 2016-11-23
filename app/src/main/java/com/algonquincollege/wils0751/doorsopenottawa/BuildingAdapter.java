@@ -29,7 +29,6 @@ import java.util.List;
 public class BuildingAdapter extends ArrayAdapter<Building> {
     private Context context;
     private List<Building> buildingList;
-    private String Address;
 
 
     private LruCache<Integer, Bitmap> imageCache;

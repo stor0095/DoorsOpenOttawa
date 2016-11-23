@@ -5,13 +5,13 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="13645255223278"
+    timestamp="13999989427544"
     token="-4831305550388473472"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="150" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -21,13 +21,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-        type="DEX" />
 
     <build
         timestamp="13507310899113"
@@ -42,9 +35,16 @@
         <artifact
             location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="13930143522980"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/ShannonWilson/Documents/Android/DoorsOpenOttawa/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />
     </build>
+    <build
+        timestamp="13999989427544"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
